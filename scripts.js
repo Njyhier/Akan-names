@@ -10,7 +10,11 @@ var day = Math.trunc(dayOfTheWeek(cc, mm, yy, dd));
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
-var myGender = prompt("Are you male or female?");
+if (dd > 31 || dd < 1) {
+  alert("Invalid Date of Birth!");
+} else if (mm < 1 || mm > 12) {
+  alert("Invalid Date of Birth!");
+} else (myGender = prompt("Are you male or female?"));
 var gender = myGender.toLowerCase()
 if (day === 0 && gender === "male") {
   alert("Your Akan name is " + maleNames[0] + ".");
