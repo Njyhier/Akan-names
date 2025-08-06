@@ -2,11 +2,19 @@
 <html>
 <head>
   <title>Akan names</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.7.1.min.js"> </script>
   <script src="scripts.js"> </script>
 </head>
-<body>
+<body style="background-image:url(img/scenery.jpg)">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12">
   <h1>Akan Names</h1>
-  <p>The Ghanaian peeople have a very unique naming culture where a baby is given a name that corresponds to the day they are born. There are names that are reserved for males and others for the females. Do you know your Akan name? Well, here are the names:
+  <p>The Ghanaian people have a very unique naming culture where a baby is given a name that corresponds to the day they are born. There are names that are reserved for males and others for the females. Do you know your Akan name? Well, here are the names:</p>
+</div>
+<div class="col-md-4"
     <h2>Male Names</h2>
       <ol>
         <li>Sunday: Kwasi</li>
@@ -17,15 +25,39 @@
         <li>Friday: Kofi</li>
         <li>Saturday: Kwame</li>
       </ol>
-    <h2>Female names</h2>
+    <h2>Female Names</h2>
       <ol>
         <li>Sunday: Akosua</li>
         <li>Monday: Adwoa</li>
         <li>Tuesday: Abenaa</li>
         <li>Wednesday: Akua</li>
-        <li>Thursday:  Yaa</li>
+        <li>Thursday: Yaa</li>
         <li>Friday: Afua</li>
         <li>Saturday: Ama</li>
       </ol>
+    </div>
+    <div class="col-md-8">
+      <div class="card">
+      <p>You don't know the day of the week you were born? We got you! Just fill in your details and we'll tell you your Akan name.</p>
+      <form>
+        <div class="form-group">
+          <label for="date">Date of Birth:</label>
+            <input id="date" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+        <select class="form-control" id="gender">
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+      </div>
+        <button type="submit" class="btn">Submit!</button>
+      </form>
+      <div id="output"> </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  </div>
   </body>
 </html>
