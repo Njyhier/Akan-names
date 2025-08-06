@@ -1,0 +1,26 @@
+.form-control {
+  width: 30%;
+  border: solid teal;
+}
+.btn {
+  background-color: teal;
+}
+.card {
+  background-color: grey;
+  float: right;
+  width: 100%;
+  color: black;
+}
+body {
+  background-color: black;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: purple;
+  font-style: normal;
+  font-weight: bolder;
+  font-family: sans-serif;
+  float: center;
+}
