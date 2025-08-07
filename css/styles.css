@@ -15,8 +15,8 @@ body {
   background-color: black;
   color: white;
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 h1 {
   color: purple;
@@ -24,9 +24,6 @@ h1 {
   font-weight: bolder;
   font-family: sans-serif;
   float: center;
-}
-p {
-  color: black;
 }
 p.form {
   color: black;
